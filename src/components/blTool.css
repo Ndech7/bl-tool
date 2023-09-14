@@ -1,0 +1,16 @@
+.leaflet-container{
+    height: 47vw;
+    width:70vw;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.25rem;
+}
+
+.instructions{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    float: left;
+    margin-left: 2%;
+    width: 20%;
+}
