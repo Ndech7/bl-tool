@@ -95,8 +95,8 @@ const Bl = () => {
     OpenStreetMap: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
     CartoDBPositron: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
     EsriWorldImagery: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-    Ruaka_Planet: "http://localhost:8080/geoserver/BL/wms?service=WMS&version=1.1.0&request=GetMap&layers=BL%3Aruaka_planet&bbox=36.73559832036072%2C-1.246258771859128%2C36.83820677953091%2C-1.1823303961104268&width=768&height=478&srs=EPSG%3A4326&styles=&format=application/openlayers",
-    Kitengela: "http://localhost:8080/geoserver/BL/wms?service=WMS&version=1.1.0&request=GetMap&layers=BL%3AKITENGELA%20SENTINEL&bbox=36.88133006127256%2C-1.5791208338168545%2C36.97964036874545%2C-1.4577822964612823&width=622&height=768&srs=EPSG%3A4326&styles=&format=application/openlayers",
+    Ruaka_Planet: "http://194.163.165.107:4080/geoserver/BL/wms?service=WMS&version=1.1.0&request=GetMap&layers=BL%3Aruaka_planet&bbox=36.735598320360715%2C-1.246258771859128%2C36.83820677953091%2C-1.1823303961104268&width=768&height=478&srs=EPSG%3A4326&styles=&format=application/openlayers",
+    Kitengela: "http://194.163.165.107:4080/geoserver/BL/wms?service=WMS&version=1.1.0&request=GetMap&layers=BL%3AKitengela&bbox=36.88133006127255%2C-1.5791208338168545%2C36.97964036874544%2C-1.457782296461282&width=622&height=768&srs=EPSG%3A4326&styles=&format=application/openlayers",
     // Add more basemap URLs as needed
   };
 
