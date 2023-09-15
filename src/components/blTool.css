@@ -14,3 +14,14 @@
     margin-left: 2%;
     width: 20%;
 }
+
+.basemap-selector {
+  position: absolute;
+  top: 60px; /* Adjust the top position as needed */
+  right: 30px; /* Adjust the right position as needed */
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 1000; /* Ensure it's above the map */
+}
